@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-henshin') {
+orgs.newOrg('modeling.emft.henshin', 'eclipse-henshin') {
   settings+: {
     description: "",
     name: "Eclipse Henshin",
