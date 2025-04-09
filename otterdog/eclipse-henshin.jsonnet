@@ -25,7 +25,8 @@ orgs.newOrg('modeling.emft.henshin', 'eclipse-henshin') {
       ],
       web_commit_signoff_required: false,
       workflows+: {
-        enabled: false,
+        enabled: true,
+        default_workflow_permissions: "write",
       },
     },
   ],
