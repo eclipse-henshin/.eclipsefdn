@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('modeling.emft.henshin', 'eclipse-henshin') {
+orgs.newOrg('modeling.henshin', 'eclipse-henshin') {
   settings+: {
     description: "",
     name: "Eclipse Henshin",
@@ -15,7 +15,7 @@ orgs.newOrg('modeling.emft.henshin', 'eclipse-henshin') {
       default_branch: "master",
       delete_branch_on_merge: false,
       description: "Henshin is a state of the art model transformation language for the Eclipse Modeling Framework. Henshin supports both direct transformations of EMF single model instances (endogenous transformations), and translation of source model instances into a target language (exogenous transformations).",
-      homepage: "https://projects.eclipse.org/projects/modeling.emft.henshin",
+      homepage: "https://projects.eclipse.org/projects/modeling.henshin",
       topics+: [
         "emf",
         "graph-transformations",
